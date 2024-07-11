@@ -1,6 +1,7 @@
 <template>
   <section>
     <NuxtLayout name="custom">
+      <NuxtLink to="/" replace>返回</NuxtLink>
       <h3>自定义 【NuxtLayout布局】</h3>
       <template #header>一些页眉模板内容</template>
 
